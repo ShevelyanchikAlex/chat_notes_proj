@@ -20,3 +20,6 @@ This is an application for comfortable taking notes.
 - change various appearance settings;
 - the ability to share the application on social networks;
 
+<img src="https://user-images.githubusercontent.com/74743036/113773541-d7381a00-972e-11eb-8eeb-7ec66443a54c.png" width="200" height="400" />
+
+<img src="https://user-images.githubusercontent.com/74743036/113773541-d7381a00-972e-11eb-8eeb-7ec66443a54c.png" width="200" height="400" />
