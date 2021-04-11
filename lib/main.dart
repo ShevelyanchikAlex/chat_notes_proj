@@ -22,7 +22,6 @@ import 'theme/custom_theme.dart';
 import 'theme/theme_bloc.dart';
 
 void main() async {
-  print('new Branch');
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
     MultiBlocProvider(
