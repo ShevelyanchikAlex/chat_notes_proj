@@ -22,6 +22,7 @@ import 'theme/custom_theme.dart';
 import 'theme/theme_bloc.dart';
 
 void main() async {
+  print('new Branch');
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
     MultiBlocProvider(
@@ -118,6 +119,7 @@ class App extends StatelessWidget {
     return BlocBuilder<ThemeBloc, ThemeMode>(
       builder: (context, state) {
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'Chat journal',
           themeMode: BlocProvider.of<ThemeBloc>(context).state,
           theme: lightTheme,
